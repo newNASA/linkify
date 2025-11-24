@@ -8,6 +8,7 @@ function App() {
     tg.ready();
 
     const userData = tg.initDataUnsafe?.user;
+    document.writeln("userdata:", userData)
 
     Promise.resolve().then(() => {
       setUser(userData);
