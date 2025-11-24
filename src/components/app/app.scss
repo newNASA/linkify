@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root{
+    --light-bg: #F3EFF9;
+    --text-gray: #212121;
+    --dark-gray: #1f2937;
+    --light-gray: #6b7280;
+}
+
+body{
+    background-color: var(--light-bg);
+}
+
+.app{
+    padding: 20px;
+}
